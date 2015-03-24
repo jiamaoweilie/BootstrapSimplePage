@@ -25,7 +25,6 @@ nav .container li .first {
 }
 .item {
   height: 680px;
-  background-color: #FF7C6D;
 }
 .item .carousel-caption {
   z-index: 10;
@@ -84,5 +83,18 @@ nav .container li .first {
   left: auto;
   right: 5%;
   top: 230px;
+}
+.item.slide4 {
+  background-color: #6EBEC5;
+}
+.item.slide4 img {
+  float: right;
+  margin-right: 5%;
+  padding-top: 150px;
+}
+.item.slide4 .carousel-caption {
+  left: 5%;
+  right: auto;
+  top: 190px;
 }
 /*# sourceMappingURL=main-page.css.map */
