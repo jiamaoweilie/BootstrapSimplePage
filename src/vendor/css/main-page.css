@@ -4,8 +4,8 @@ body {
 }
 nav {
   padding: 15px 0;
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 nav .container .navbar-brand {
   background: url("../image/logo.png") no-repeat left top;
@@ -18,8 +18,58 @@ nav .container li a {
   margin: 15px;
   padding: 0;
 }
-nav .container li a:hover {
+nav .container li a:hover,
+nav .container li .first {
   border-bottom: 3px solid #fff;
   background: none;
+}
+.item {
+  height: 680px;
+  background-color: #FF7C6D;
+}
+.item .carousel-caption {
+  z-index: 10;
+  width: 40%;
+  bottom: auto;
+  text-shadow: none;
+  text-align: left;
+}
+.item .carousel-caption h3 {
+  font-size: 45px;
+  color: #fff;
+}
+.item .carousel-caption span {
+  color: #fff;
+  font-size: 20px;
+}
+.item.slide1 {
+  background-color: #FF7C6D;
+}
+.item.slide1 img {
+  margin-left: 5%;
+  padding-top: 140px;
+}
+.item.slide1 .carousel-caption {
+  left: auto;
+  right: 5%;
+  top: 250px;
+  text-align: left;
+}
+.item.slide2 {
+  background-color: #164f78;
+}
+.item.slide2 img {
+  float: right;
+  margin-right: 5%;
+  padding-top: 150px;
+}
+.item.slide2 .carousel-caption {
+  top: 190px;
+  left: 5%;
+  right: auto;
+  padding-right: 50px;
+}
+.item.slide2 .carousel-caption h3 {
+  line-height: 51px;
 }
 /*# sourceMappingURL=main-page.css.map */
