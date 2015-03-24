@@ -1,0 +1,1 @@
+{"version":3,"sources":["../less/main.less"],"names":[],"mappings":"AACA,GACE,WACE;EACI,gBAAgB,uCAAhB","sourcesContent":["\nnav{\n  .container{\n    .navbar-brand{\n        background: url(\"../image/logo.png\") no-repeat left top;\n    }\n  }\n}"]}

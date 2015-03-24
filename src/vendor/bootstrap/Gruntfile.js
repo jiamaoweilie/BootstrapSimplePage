@@ -177,11 +177,11 @@ module.exports = function (grunt) {
                     strictMath: true,
                     sourceMap: true,
                     outputSourceFiles: true,
-                    sourceMapURL: '<%= pkg.name %>-theme.css.map',
-                    sourceMapFilename: 'dist/css/<%= pkg.name %>-theme.css.map'
+                    sourceMapURL: 'main-page.css.map',
+                    sourceMapFilename: '../css/main-page.css.map'
                 },
-                src: 'less/theme.less',
-                dest: 'dist/css/<%= pkg.name %>-theme.css'
+                src: '../less/*.less',
+                dest: '../css/main-page.css'
             }
         },
 
@@ -364,7 +364,7 @@ module.exports = function (grunt) {
                 tasks: ['jshint:test', 'qunit']
             },
             less: {
-                files: 'less/**/*.less',
+                files: ['less/**/*.less', '../less/*.less'],
                 tasks: 'less'
             }
         },

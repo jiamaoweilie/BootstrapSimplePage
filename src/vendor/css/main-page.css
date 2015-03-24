@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 15px 0;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+nav .container .navbar-brand {
+  background: url("../image/logo.png") no-repeat left top;
+  width: 189px;
+  height: 50px;
+}
+nav .container li a {
+  color: #fff !important;
+  font-size: 15px;
+  margin: 15px;
+  padding: 0;
+}
+nav .container li a:hover {
+  border-bottom: 3px solid #fff;
+  background: none;
+}
+/*# sourceMappingURL=main-page.css.map */
