@@ -37,6 +37,7 @@ nav .container li .first {
 .item .carousel-caption h3 {
   font-size: 45px;
   color: #fff;
+  line-height: 56px;
 }
 .item .carousel-caption span {
   color: #fff;
@@ -71,5 +72,17 @@ nav .container li .first {
 }
 .item.slide2 .carousel-caption h3 {
   line-height: 51px;
+}
+.item.slide3 {
+  background-color: #F1B14F;
+}
+.item.slide3 img {
+  margin-left: 5%;
+  padding-top: 229px;
+}
+.item.slide3 .carousel-caption {
+  left: auto;
+  right: 5%;
+  top: 230px;
 }
 /*# sourceMappingURL=main-page.css.map */
