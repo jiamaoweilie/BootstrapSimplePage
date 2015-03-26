@@ -32,7 +32,7 @@ nav .container li .first {
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
 #carousel ol .active {
-  margin: auto;
+  margin: 1px auto 1px 8px;
 }
 #carousel .item {
   height: 680px;
@@ -252,6 +252,7 @@ nav .container li .first {
 }
 .portfolio .header h2 {
   margin: 20px auto 10px auto;
+  color: #5b5b5b;
 }
 .portfolio .carousel-port {
   margin: 35px auto;
