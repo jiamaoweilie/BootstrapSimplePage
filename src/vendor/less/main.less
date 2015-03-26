@@ -32,7 +32,7 @@ nav {
   }
 }
 
-.carousel {
+#carousel {
   ol {
     li, .active {
       margin-left: 8px;
@@ -40,8 +40,11 @@ nav {
       height: 15px;
       border: 1px solid rgba(255, 255, 255, 0.90);
     }
-  }
 
+    .active {
+      margin: auto;
+    }
+  }
   .item {
     height: 680px;
     .carousel-caption {
@@ -119,7 +122,7 @@ nav {
 }
 
 @media (max-width: 1024px) {
-  .carousel {
+  #carousel {
     ol {
       li, .active {
         margin-left: 22px;
@@ -171,7 +174,6 @@ nav {
   background-color: #fff;
   padding-top: 80px;
   color: #5b5b5b;
-  box-sizing: border-box;
   .header {
     margin-bottom: 58px;
   }
@@ -195,6 +197,7 @@ nav {
     margin-bottom: 35px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+    height: 290px !important;
 
     .circle {
       position: relative;
@@ -255,7 +258,6 @@ nav {
         font-size: 12px;
         margin: 0 0 10px;
         color: #5b5b5b;
-
       }
     }
     &:hover {
@@ -284,12 +286,11 @@ nav {
 
   .carousel-port {
     margin: 35px auto;
-    height: 720px;
     overflow: hidden;
   }
 
   .item {
-    height: 720px !important;
+    max-height: 720px;
     text-align: center;
     overflow: hidden;
     position: relative;
