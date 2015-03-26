@@ -31,6 +31,10 @@ nav .container li .first {
   height: 15px;
   border: 1px solid rgba(255, 255, 255, 0.9);
 }
+#carousel ol li:first-child,
+#carousel ol .active:first-child {
+  margin-left: 0px;
+}
 #carousel ol .active {
   margin: 1px auto 1px 8px;
 }
